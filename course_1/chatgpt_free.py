@@ -6,7 +6,7 @@ client = OpenAI(api_key=os.getenv('API_KEY'), base_url="https://api.pawan.krd/v1
 completion = client.chat.completions.create(
 	model="pai-001",
 	messages=[
-		{"role": "user", "content": "what is the capital of Venezuela?"},
+		{"role": "user", "content": "What is the capital of Venezuela?"},
 	],
 )
 
