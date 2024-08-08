@@ -12,3 +12,4 @@
 * [Hello world](course_1/hello_alejandro.py)
 * [Days from Christmas to Birthday](course_1/days-christmas-birthday.py)
 * [Power](course_1/power.py)
+* [Exercises 1](course_1/exercises_1.py)
