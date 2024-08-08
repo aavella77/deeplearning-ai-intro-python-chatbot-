@@ -15,3 +15,5 @@
 * [Exercises 1](course_1/exercises_1.py)
 * [Exercises 2](course_1/exercises_2.py)
 * [variable_names](course_1/variable_names.py)
+* [Exercises 3](course_1/exercises_3.py)
+* [ChatGPT Free](course_1/chatgpt_free.py)
