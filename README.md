@@ -22,7 +22,7 @@
 1. Download [IntelliJ Idea **Community** Edition](https://www.jetbrains.com/idea/download/?section=mac) (Free) 
 2. Install latest version of [Python 3.12](https://www.python.org/downloads/) (as of August 2024, Free). 
 3. Open a terminal, and execute: 
-   4. pip install —upgrade openai
+   1. pip install —upgrade openai
 4. Fork the repository in [Alejandro Avella's deeplearning-ai-intro-python-chatbot- Github repository](https://github.com/aavella77/deeplearning-ai-intro-python-chatbot-): 
 5. In IntelliJ IDE, File > New Project from Existing sources.  Navigate to the forked repository and accept import defaults
 6. Open the file [chatgpt_free](https://github.com/aavella77/deeplearning-ai-intro-python-chatbot-/blob/main/course_1/chatgpt_free.py) in IntelliJ IDE:
