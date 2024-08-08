@@ -5,23 +5,16 @@ def days_between(date1, date2):
 	return (date2 - date1).days
 
 # Your birthday
-birthday = date(1971, 10, 5)
+birthday = date(date.today().year, 10, 5)
 
 # Christmas
 christmas = date(date.today().year, 12, 25)
 
-# Handle case where Christmas has already passed this year
-if christmas < date.today():
-	christmas = date(date.today().year + 1, 12, 25)
+# Calculate the number of days between Christmas and your birthday
+days_to_birthday_from_christmas = days_between(christmas, birthday)
 
-days_to_christmas = days_between(date.today(), christmas)
+# Handle case where birthday is before Christmas in the same year
+if days_to_birthday_from_christmas < 0:
+	days_to_birthday_from_christmas += 365
 
-# Handle case where birthday has already passed this year
-next_birthday = date(date.today().year, birthday.month, birthday.day)
-if next_birthday < date.today():
-	next_birthday = date(date.today().year + 1, birthday.month, birthday.day)
-
-days_to_birthday = days_between(date.today(), next_birthday)
-
-print(f"Days until Christmas: {days_to_christmas}")
-print(f"Days until your birthday: {days_to_birthday}")
+print(f"Days between Christmas and your birthday: {days_to_birthday_from_christmas}")
