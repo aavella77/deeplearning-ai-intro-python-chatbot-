@@ -14,3 +14,4 @@
 * [Power](course_1/power.py)
 * [Exercises 1](course_1/exercises_1.py)
 * [Exercises 2](course_1/exercises_2.py)
+* [variable_names](course_1/variable_names.py)
